@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC240EBB1AEC0962007B6CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC240EBA1AEC0962007B6CF7 /* AppDelegate.swift */; };
+		DC240EBD1AEC0962007B6CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC240EBC1AEC0962007B6CF7 /* ViewController.swift */; };
+		DC240EC01AEC0962007B6CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC240EBE1AEC0962007B6CF7 /* Main.storyboard */; };
+		DC240EC21AEC0962007B6CF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC240EC11AEC0962007B6CF7 /* Images.xcassets */; };
+		DC240EC51AEC0962007B6CF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC240EC31AEC0962007B6CF7 /* LaunchScreen.xib */; };
+		DC240ED11AEC0962007B6CF7 /* DateViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC240ED01AEC0962007B6CF7 /* DateViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC240ECB1AEC0962007B6CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC240EAD1AEC0962007B6CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC240EB41AEC0962007B6CF7;
+			remoteInfo = DateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC240EB51AEC0962007B6CF7 /* DateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC240EB91AEC0962007B6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC240EBA1AEC0962007B6CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC240EBC1AEC0962007B6CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC240EBF1AEC0962007B6CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC240EC11AEC0962007B6CF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC240EC41AEC0962007B6CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC240ECA1AEC0962007B6CF7 /* DateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC240ECF1AEC0962007B6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC240ED01AEC0962007B6CF7 /* DateViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC240EB21AEC0962007B6CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC240EC71AEC0962007B6CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC240EAC1AEC0962007B6CF7 = {
+			isa = PBXGroup;
+			children = (
+				DC240EB71AEC0962007B6CF7 /* DateView */,
+				DC240ECD1AEC0962007B6CF7 /* DateViewTests */,
+				DC240EB61AEC0962007B6CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC240EB61AEC0962007B6CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC240EB51AEC0962007B6CF7 /* DateView.app */,
+				DC240ECA1AEC0962007B6CF7 /* DateViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC240EB71AEC0962007B6CF7 /* DateView */ = {
+			isa = PBXGroup;
+			children = (
+				DC240EBA1AEC0962007B6CF7 /* AppDelegate.swift */,
+				DC240EBC1AEC0962007B6CF7 /* ViewController.swift */,
+				DC240EBE1AEC0962007B6CF7 /* Main.storyboard */,
+				DC240EC11AEC0962007B6CF7 /* Images.xcassets */,
+				DC240EC31AEC0962007B6CF7 /* LaunchScreen.xib */,
+				DC240EB81AEC0962007B6CF7 /* Supporting Files */,
+			);
+			path = DateView;
+			sourceTree = "<group>";
+		};
+		DC240EB81AEC0962007B6CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC240EB91AEC0962007B6CF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC240ECD1AEC0962007B6CF7 /* DateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC240ED01AEC0962007B6CF7 /* DateViewTests.swift */,
+				DC240ECE1AEC0962007B6CF7 /* Supporting Files */,
+			);
+			path = DateViewTests;
+			sourceTree = "<group>";
+		};
+		DC240ECE1AEC0962007B6CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC240ECF1AEC0962007B6CF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC240EB41AEC0962007B6CF7 /* DateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC240ED41AEC0962007B6CF7 /* Build configuration list for PBXNativeTarget "DateView" */;
+			buildPhases = (
+				DC240EB11AEC0962007B6CF7 /* Sources */,
+				DC240EB21AEC0962007B6CF7 /* Frameworks */,
+				DC240EB31AEC0962007B6CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateView;
+			productName = DateView;
+			productReference = DC240EB51AEC0962007B6CF7 /* DateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC240EC91AEC0962007B6CF7 /* DateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC240ED71AEC0962007B6CF7 /* Build configuration list for PBXNativeTarget "DateViewTests" */;
+			buildPhases = (
+				DC240EC61AEC0962007B6CF7 /* Sources */,
+				DC240EC71AEC0962007B6CF7 /* Frameworks */,
+				DC240EC81AEC0962007B6CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC240ECC1AEC0962007B6CF7 /* PBXTargetDependency */,
+			);
+			name = DateViewTests;
+			productName = DateViewTests;
+			productReference = DC240ECA1AEC0962007B6CF7 /* DateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC240EAD1AEC0962007B6CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = vantech.com;
+				TargetAttributes = {
+					DC240EB41AEC0962007B6CF7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DC240EC91AEC0962007B6CF7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DC240EB41AEC0962007B6CF7;
+					};
+				};
+			};
+			buildConfigurationList = DC240EB01AEC0962007B6CF7 /* Build configuration list for PBXProject "DateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC240EAC1AEC0962007B6CF7;
+			productRefGroup = DC240EB61AEC0962007B6CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC240EB41AEC0962007B6CF7 /* DateView */,
+				DC240EC91AEC0962007B6CF7 /* DateViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC240EB31AEC0962007B6CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC240EC01AEC0962007B6CF7 /* Main.storyboard in Resources */,
+				DC240EC51AEC0962007B6CF7 /* LaunchScreen.xib in Resources */,
+				DC240EC21AEC0962007B6CF7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC240EC81AEC0962007B6CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC240EB11AEC0962007B6CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC240EBD1AEC0962007B6CF7 /* ViewController.swift in Sources */,
+				DC240EBB1AEC0962007B6CF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC240EC61AEC0962007B6CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC240ED11AEC0962007B6CF7 /* DateViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC240ECC1AEC0962007B6CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC240EB41AEC0962007B6CF7 /* DateView */;
+			targetProxy = DC240ECB1AEC0962007B6CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC240EBE1AEC0962007B6CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC240EBF1AEC0962007B6CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC240EC31AEC0962007B6CF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC240EC41AEC0962007B6CF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC240ED21AEC0962007B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC240ED31AEC0962007B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC240ED51AEC0962007B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC240ED61AEC0962007B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC240ED81AEC0962007B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateView.app/DateView";
+			};
+			name = Debug;
+		};
+		DC240ED91AEC0962007B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateView.app/DateView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC240EB01AEC0962007B6CF7 /* Build configuration list for PBXProject "DateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC240ED21AEC0962007B6CF7 /* Debug */,
+				DC240ED31AEC0962007B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC240ED41AEC0962007B6CF7 /* Build configuration list for PBXNativeTarget "DateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC240ED51AEC0962007B6CF7 /* Debug */,
+				DC240ED61AEC0962007B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC240ED71AEC0962007B6CF7 /* Build configuration list for PBXNativeTarget "DateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC240ED81AEC0962007B6CF7 /* Debug */,
+				DC240ED91AEC0962007B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC240EAD1AEC0962007B6CF7 /* Project object */;
+}
