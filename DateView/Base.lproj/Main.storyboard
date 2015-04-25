@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DateView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVf-BE-XQX">
+                                <rect key="frame" x="0.0" y="28" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="451676566.30471402">
+                                    <!--2015-04-25 17:42:46 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkx-HY-h5V">
+                                <rect key="frame" x="238" y="209" width="124" height="30"/>
+                                <state key="normal" title="What date is this?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9OH-pC-lCN"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pkx-HY-h5V" firstAttribute="centerX" secondItem="MVf-BE-XQX" secondAttribute="centerX" id="2Oh-ma-JYA"/>
+                            <constraint firstItem="pkx-HY-h5V" firstAttribute="top" secondItem="MVf-BE-XQX" secondAttribute="bottom" constant="19" id="4fv-h2-35a"/>
+                            <constraint firstAttribute="trailing" secondItem="MVf-BE-XQX" secondAttribute="trailing" id="6oI-bg-5tP"/>
+                            <constraint firstItem="MVf-BE-XQX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="Pkd-Ui-wQR"/>
+                            <constraint firstItem="MVf-BE-XQX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TVU-td-GEH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="MVf-BE-XQX" id="ojh-vT-N7R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
